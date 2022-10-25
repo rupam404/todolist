@@ -1,38 +1,85 @@
+body{
+  background-image: linear-gradient(rgb(159, 10, 179),rgb(100, 0, 146));
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 .App {
+  width: 500px;
+  height: 90vh;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-top: 5px;
+  background-color: black;
+  border-radius: 10px;
+ 
+}
+
+.active{
+  text-decoration: line-through;
+  margin: auto;
+  width: 450px;
+  border-radius: 4px;
+  background-image: linear-gradient(rgb(168, 201, 214),rgb(109, 109, 109));
+  padding: 10px;
+  margin-bottom:6px ;
+  color: white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.normal{
+  margin: auto;
+  width: 450px;
+  border-radius: 4px;
+  background-image: linear-gradient(rgb(0, 180, 252),rgb(10, 44, 236));
+  padding: 10px;
+  margin-bottom:6px ;
+  color: white;
+  text-align: center;
+ 
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button{
+  border: 1px solid rgb(202, 3, 202);
+  padding:10px;
+  background-image: linear-gradient(rgb(159, 10, 179),rgb(100, 0, 146));
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.todoInput{
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(202, 3, 202);
+  padding:10px;
+  width:250px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete{
+    color: white;
+    width: 50px;
+    background-image: linear-gradient(rgb(248, 96, 96),red);
+    border: none;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+.complete{
+  color: white;
+  width: 70px;
+  background-image: linear-gradient(rgb(129, 238, 129),rgb(46, 163, 30));
+  border: none;
+  border-radius: 2px;
+}
+.delete:hover{
+  background-image: none;
+  font-weight: bold;
+  color: red;
+}
+.complete:hover{
+  background-image: none;
+  font-weight: bold;
+  color: rgb(3, 192, 3);
+}
+.button:hover{
+  color: blueviolet;
+  background-image: none;
+  font-weight: bold;
+  border: none;
 }
