@@ -94,11 +94,11 @@ body{
     height: 120vh;
   }
   .App{
-    width: 270px;
+    width: auto;
     height: 110vh;
   }
   .todoInput{
-    width: auto;
+    width: 100%;
   }
   .normal{
     width: auto;
@@ -106,4 +106,8 @@ body{
   .active{
     width: auto;
   }
+  .submit{
+    width: auto;
+  }
+  
 }
