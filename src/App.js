@@ -5,7 +5,10 @@ function App() {
   const [tasks, setTasks] = useState([]);
 
   const addTask = (value) => {
-    if (!value){return;}
+    if (!value){
+      console.log("Please gve some input");
+      return;
+    }
 
     const newtask = {
       title: value,
