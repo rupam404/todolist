@@ -6,7 +6,7 @@ function App() {
 
   const addTask = (value) => {
     if (!value){
-      console.log("Please gve some input");
+      alert("Please gve some input");
       return;
     }
 
